@@ -1,0 +1,28 @@
+{
+  "name": "car-practice-project",
+  "version": "1.0.0",
+  "description": "This is a practice project in node.js. The project has some main functionalities like sign up and login. After login, only the authenticate users can add / fetch their registered cars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahzadijaweria/Car-Practice-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahzadijaweria/Car-Practice-Project/issues"
+  },
+  "homepage": "https://github.com/shahzadijaweria/Car-Practice-Project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "node-modules": "^1.0.1"
+  }
+}
